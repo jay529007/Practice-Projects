@@ -8,7 +8,9 @@ document.querySelector(".rannumber").textContent = `${randomNumber}`;
 
 
 
-// ----------------------------- perfectcode -----------------------------
+// ----------------------------- perfectly working code -----------------------------
+// this code is from chai or code 
+
 // let randomNumber = parseInt(Math.random() * 100 + 1);
 
 // const submit = document.querySelector('#subt');
