@@ -26,20 +26,15 @@ const bdcolor = document.body.style.backgroundColor;
 
 let intervalId;
 const startChangingColor = function () {
-  if (!intervalId) {
-    intervalId = setInterval(changeBgColor, 1000);
-  }
-
+  intervalId = setInterval(changeBgColor, 1000);
   function changeBgColor() {
     document.body.style.backgroundColor = randomColor();
   }
 };
 const stopChangingColor = function () {
   clearInterval(intervalId);
-  intervalId = null;
   document.body.style.backgroundColor = bdcolor;
   console.log(bdcolor);
-  
 };
 
 document.querySelector("#start").addEventListener("click", startChangingColor);
