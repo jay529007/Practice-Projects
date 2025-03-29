@@ -34,7 +34,7 @@ const startChangingColor = function () {
 const stopChangingColor = function () {
   clearInterval(intervalId);
   document.body.style.backgroundColor = bdcolor;
-  console.log(bdcolor);
+//   console.log(bdcolor);
 };
 
 document.querySelector("#start").addEventListener("click", startChangingColor);
